@@ -5,9 +5,9 @@ def main():
 #    data.readTeams()
 #    data.writeLeagues()
 #    data.writeTeams()
-    data.readGames()
-    data.writeGames()
-    data.readGameOdds()
+#    data.readGame('SGPa5fvr')
+    data.readGameIds('/england/premier-league')
+    data.readAllGames()
     data.writeGames()
     pass
     # read available pandas structure
