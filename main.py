@@ -1,10 +1,11 @@
 import data
 
 def main():
-    data.readLeagues()
-    data.readTeams()
-    data.writeLeagues()
-    data.writeTeams()
+#    data.readLeagues()
+#    data.readTeams()
+#    data.writeLeagues()
+#    data.writeTeams()
+    data.readGames()
     pass
     # read available pandas structure
     # read all team ids for leagues (if incomplete)

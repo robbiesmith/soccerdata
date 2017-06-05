@@ -1,21 +1,21 @@
-,name,path
-0,Arsenal,england/premier-league//team/arsenal/hA1Zm19f
-1,Bournemouth,england/premier-league//team/bournemouth/OtpNdwrc
-2,Burnley,england/premier-league//team/burnley/z3dmTMMO
-3,Chelsea,england/premier-league//team/chelsea/4fGZN2oK
-4,Crystal Palace,england/premier-league//team/crystal-palace/AovF1Mia
-5,Everton,england/premier-league//team/everton/KluSTr9s
-6,Hull City,england/premier-league//team/hull-city/S66R0t75
-7,Leicester,england/premier-league//team/leicester/KrrdAMyI
-8,Liverpool,england/premier-league//team/liverpool/lId4TMwf
-9,Manchester City,england/premier-league//team/manchester-city/Wtn9Stg0
-10,Manchester United,england/premier-league//team/manchester-united/ppjDR086
-11,Middlesbrough,england/premier-league//team/middlesbrough/6F0lvLNC
-12,Southampton,england/premier-league//team/southampton/WdKOwxDM
-13,Stoke City,england/premier-league//team/stoke-city/hSUajdSS
-14,Sunderland,england/premier-league//team/sunderland/WSzc94ws
-15,Swansea,england/premier-league//team/swansea/K6xezbY7
-16,Tottenham,england/premier-league//team/tottenham/UDg08Ohm
-17,Watford,england/premier-league//team/watford/UmMRoGzp
-18,West Brom,england/premier-league//team/west-brom/CCBWpzjj
-19,West Ham,england/premier-league//team/west-ham/Cxq57r8g
+,name,path,id
+0,Arsenal,/england/premier-league/team/arsenal/hA1Zm19f,hA1Zm19f
+1,Bournemouth,/england/premier-league/team/bournemouth/OtpNdwrc,OtpNdwrc
+2,Burnley,/england/premier-league/team/burnley/z3dmTMMO,z3dmTMMO
+3,Chelsea,/england/premier-league/team/chelsea/4fGZN2oK,4fGZN2oK
+4,Crystal Palace,/england/premier-league/team/crystal-palace/AovF1Mia,AovF1Mia
+5,Everton,/england/premier-league/team/everton/KluSTr9s,KluSTr9s
+6,Hull City,/england/premier-league/team/hull-city/S66R0t75,S66R0t75
+7,Leicester,/england/premier-league/team/leicester/KrrdAMyI,KrrdAMyI
+8,Liverpool,/england/premier-league/team/liverpool/lId4TMwf,lId4TMwf
+9,Manchester City,/england/premier-league/team/manchester-city/Wtn9Stg0,Wtn9Stg0
+10,Manchester United,/england/premier-league/team/manchester-united/ppjDR086,ppjDR086
+11,Middlesbrough,/england/premier-league/team/middlesbrough/6F0lvLNC,6F0lvLNC
+12,Southampton,/england/premier-league/team/southampton/WdKOwxDM,WdKOwxDM
+13,Stoke City,/england/premier-league/team/stoke-city/hSUajdSS,hSUajdSS
+14,Sunderland,/england/premier-league/team/sunderland/WSzc94ws,WSzc94ws
+15,Swansea,/england/premier-league/team/swansea/K6xezbY7,K6xezbY7
+16,Tottenham,/england/premier-league/team/tottenham/UDg08Ohm,UDg08Ohm
+17,Watford,/england/premier-league/team/watford/UmMRoGzp,UmMRoGzp
+18,West Brom,/england/premier-league/team/west-brom/CCBWpzjj,CCBWpzjj
+19,West Ham,/england/premier-league/team/west-ham/Cxq57r8g,Cxq57r8g
