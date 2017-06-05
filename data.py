@@ -1,4 +1,6 @@
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 
 leagues_data = None
 teams_data = None
@@ -10,14 +12,24 @@ def readLeagues():
         leagues_data = pd.read_csv('leagues.csv')
     except:
 # http://www.flashscore.com/soccer/england/premier-league/teams/
-        leagues_data = pd.DataFrame([{'name':'EPL', 'path':'england/premier-league'}])
+        leagues_data = pd.DataFrame([{'name':'EPL', 'path':'england/premier-league/'}])
     
 def readTeams():
-    global leagues_data
+    global teams_data
     try:
-        teams_table = pd.read_table('teams.csv')
+        teams_data = pd.read_table('teams.csv')
     except:
-        pass
+        for index, row in leagues_data.iterrows():
+            teams_data = pd.DataFrame(columns=['name', 'path'])
+            r = requests.get('http://www.flashscore.com/soccer/' + row["path"] + "teams/")
+            soup = BeautifulSoup(r.content, "lxml")
+            teamtable = soup.find(id="tournament-page-participants")
+            teams = teamtable.find("tbody").find_all("tr")
+            for t in teams:
+                path = row["path"] + t.find("a").get("href")
+                name = t.find("a").text
+                new_df = pd.DataFrame([{'name':name, 'path':path}], columns=['name', 'path'])
+                teams_data = teams_data.append(new_df, ignore_index=True)
     
 def readGames():
     try:
