@@ -6,6 +6,9 @@ def main():
 #    data.writeLeagues()
 #    data.writeTeams()
     data.readGames()
+    data.writeGames()
+    data.readGameOdds()
+    data.writeGames()
     pass
     # read available pandas structure
     # read all team ids for leagues (if incomplete)
