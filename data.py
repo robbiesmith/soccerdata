@@ -67,8 +67,10 @@ def readGameIds(league_id):
     pass
 
 def readAllGames():
+    global games_data
+    games_data = pd.read_csv('games.csv', index_col=0)
     for index, row in games_data.iterrows():
-        if not row['h_id']:
+        if pd.isnull(row['h_id']):
             readGame(row['game_id'])
         
 def readGame(game_id):

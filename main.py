@@ -6,7 +6,7 @@ def main():
 #    data.writeLeagues()
 #    data.writeTeams()
 #    data.readGame('SGPa5fvr')
-    data.readGameIds('/england/premier-league')
+#    data.readGameIds('/england/premier-league')
     data.readAllGames()
     data.writeGames()
     pass
